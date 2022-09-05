@@ -25,7 +25,7 @@
 - Press Enter to create your local clone.
 - Open the folder
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://luccamicale.github.io/myportfolio.github.io/)
 
 ## Authors
 
