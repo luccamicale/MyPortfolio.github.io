@@ -1,56 +1,43 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# My first project in Microverse!
 
 # Project Name
 
 > Description the project.
-
+  
+  I published my portfolio in GitHub Pages. This website is the last version in my portfolio. 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Github Pages
 
-## Live Demo (if available)
+  ## getting Started
+
+  To check this project, please follow this steps:
+
+- On GitHub.com, navigate to the main page of the repository.
+- Above the list of files, click the green "Code" button.
+- Copy the URL for the repository.
+- Open Git Bash.
+- Change the current working directory to the location where you want the cloned directory.
+- Type git clone, and then paste the URL you copied earlier: https://github.com/luccamicale/myportfolio.github.io.git
+- Press Enter to create your local clone.
+- Open the folder
 
 [Live Demo Link](https://livedemo.com)
 
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
 ## Authors
 
-👤 **Author1**
+👤 **LUCCA MICALE**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: https://github.com/luccamicale
+- Twitter: https://twitter.com/LuccaMicale_
+- LinkedIn: https://www.linkedin.com/in/lucca-micale-907908233/
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+I complete the document only
 
 ## 🤝 Contributing
 
@@ -71,5 +58,7 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
+## Live Demo (if available)
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+
