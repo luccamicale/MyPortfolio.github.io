@@ -1297,7 +1297,7 @@ form ul {
   .all5 {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 1400px;
     margin-top: 50px;
   }
 
@@ -1477,4 +1477,11 @@ form ul {
   .arrow2 {
     margin-top: -20px;
   }
+}
+
+* :focus {
+  background: rgb(72, 255, 0);
+  transition: 4s;
+  font-size: 70px;
+  color: #396df2;
 }
