@@ -1477,6 +1477,10 @@ form ul {
   .arrow2 {
     margin-top: -20px;
   }
+
+  .overlay {
+    display: none;
+  }
 }
 
 * :focus {
@@ -1484,4 +1488,76 @@ form ul {
   transition: 4s;
   font-size: 70px;
   color: #396df2;
+}
+
+.overlay {
+  position: absolute;
+  left: 0.1px;
+  right: 0.1px;
+  top: 0.1px;
+  bottom: 0.1px;
+  background: #6070ff;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(14px);
+}
+
+#menu-can1 {
+  position: absolute;
+  height: 24px;
+  left: 35px;
+  right: 68px;
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  top: 140px;
+  text-decoration: none;
+}
+
+#menu-can2 {
+  position: absolute;
+  height: 24px;
+  left: 35px;
+  right: 68px;
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  top: 220px;
+  text-decoration: none;
+}
+
+#menu-can3 {
+  position: absolute;
+  height: 24px;
+  left: 35px;
+  right: 68px;
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  top: 290px;
+  text-decoration: none;
+}
+
+.main-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.cancel {
+  margin-left: 400px;
+  margin-top: 20px;
 }
