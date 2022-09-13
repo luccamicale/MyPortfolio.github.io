@@ -1526,8 +1526,8 @@ form ul {
   flex-direction: row;
   align-items: flex-start;
   position: fixed;
-  right: 2%;
-  padding: 8px;
+  margin-left: 310px;
+  padding: 40px;
 }
 
 #menu-can1 {
