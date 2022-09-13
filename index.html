@@ -19,11 +19,11 @@
         
     <header class="header">
         <nav class="content">
-            <a class="menu" href="index.html"><img src="images/mennu.PNG" alt="My Menu"></a>
-                <a class="logo" href="index.html"><img src="images/MyLogo.jpg" alt="My Logo"></a>
-                    <a class="portfolio" href="index.html">Portfolio</a>
-                        <a class="about2" href="index.html">About</a>
-                            <a class="contact3" href="index.html">Contact</a>
+            <a class="menu" id="menu-main-main" href="#"><img src="images/mennu.PNG" alt="My Menu"></a>
+                <a class="logo" href="#"><img src="images/MyLogo.jpg" alt="My Logo"></a>
+                    <a class="portfolio" href="#work">Portfolio</a>
+                        <a class="about2" href="#about-me">About</a>
+                            <a class="contact3" href="#contact-me">Contact</a>
         </nav>   
         
     </header>
@@ -183,7 +183,7 @@
         </div>
     </section>
     
-    <section class="all5">
+    <section class="all5" id="about-me">
         <div class="about-sub-1">
             <div class="document5">
                 <h2 class="about"> About Myself </h2>
@@ -286,7 +286,7 @@
       
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact-me">
         <div class="recta">
             <img class="rectan1" src="images/Rectangle42.png" alt="figure">
             <img class="rectan2" src="images/Rectangle17.png" alt="figure one">
@@ -321,5 +321,23 @@
         </form>
     </section>
 
+    <div class="overlay">
+        <div class="cancel">
+            <a href="#"><img src="images/Enabled.png" alt="icom-cancel"></a>
+        </div>
+        <ul class="menu-main">
+            <li><a class="menu-cancel" id="menu-can1" href="#work">Portfolio</a></li>
+            <li><a class="menu-cancel" id="menu-can2" href="#about-me">About</a></li>
+            <li><a class="menu-cancel" id="menu-can3" href="#contact-me">Contact</a></li>
+        </ul>
+    </div>
+
+
+
+
+
+
+
+    <script src="app.js"></script>
 </body>
 </html>
