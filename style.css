@@ -162,6 +162,7 @@
   top: 24px;
   text-decoration: none;
   padding-left: 280px;
+  display: flex;
 }
 
 #work {
@@ -1491,20 +1492,46 @@ form ul {
 }
 
 .overlay {
-  position: absolute;
-  left: 0.1px;
-  right: 0.1px;
-  top: 0.1px;
-  bottom: 0.1px;
-  background: #6070ff;
+  background-color: #6070ff;
   mix-blend-mode: multiply;
-  backdrop-filter: blur(14px);
+  backdrop-filter: blur(7px);
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.menu-main-main {
+  display: flex;
+  flex-direction: column;
+  padding-top: 106px;
+  padding-left: 28px;
+  gap: 80px;
+}
+
+.menu-cancel {
+  color: #fff;
+  font-size: 29px;
+  font-weight: 500;
+  line-height: 44px;
+  text-decoration: none;
+  padding-top: 50px;
+}
+
+.cancel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  position: fixed;
+  right: 2%;
+  padding: 8px;
 }
 
 #menu-can1 {
   position: absolute;
   height: 24px;
-  left: 35px;
+  left: 40px;
   right: 68px;
   font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
@@ -1514,14 +1541,13 @@ form ul {
   display: flex;
   align-items: center;
   color: #fff;
-  top: 140px;
-  text-decoration: none;
+  margin-top: 60px;
 }
 
 #menu-can2 {
   position: absolute;
   height: 24px;
-  left: 35px;
+  left: 40px;
   right: 68px;
   font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
@@ -1531,14 +1557,13 @@ form ul {
   display: flex;
   align-items: center;
   color: #fff;
-  top: 220px;
-  text-decoration: none;
+  margin-top: 100px;
 }
 
 #menu-can3 {
   position: absolute;
   height: 24px;
-  left: 35px;
+  left: 40px;
   right: 68px;
   font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
@@ -1548,16 +1573,5 @@ form ul {
   display: flex;
   align-items: center;
   color: #fff;
-  top: 290px;
-  text-decoration: none;
-}
-
-.main-menu {
-  display: flex;
-  flex-direction: column;
-}
-
-.cancel {
-  margin-left: 400px;
-  margin-top: 20px;
+  margin-top: 140px;
 }
