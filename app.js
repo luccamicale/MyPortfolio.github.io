@@ -1,11 +1,12 @@
 const hamburger = document.querySelector('.menu');
 const overlay = document.querySelector('.overlay');
-const menumain = document.querySelector('.menu-main');
+const mainMenu = document.querySelector('.menu-main');
 const cancel = document.querySelector('.cancel');
 const linkss = document.querySelectorAll('.menu-cancel');
 
 hamburger.addEventListener('click', () => {
-  overlay.style.display = 'block';
+  overlay.style.display = 'flex';
+  mainMenu.style.display = 'block';
 });
 
 cancel.addEventListener('click', () => {
