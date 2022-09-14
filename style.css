@@ -1577,3 +1577,136 @@ form ul {
   color: #fff;
   margin-top: 140px;
 }
+
+.list-one {
+  display: inline;
+  flex-direction: row;
+}
+
+.project-modal {
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  height: 100vh;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-container {
+  position: fixed;
+  background-color: rgba(253, 253, 253, 0.8);
+  width: 100%;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(8px);
+  height: 100%;
+  display: none;
+  margin-right: 10px;
+  height: 100%;
+  
+}
+
+.project-modal #project-name {
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  text-align: left;
+}
+
+.project-modal .languages-list {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+.project-modal .languages-list li {
+  background: #fff;
+  padding: 10px;
+  margin: 0 5px;
+  border: 1px solid #dfe1e6;
+  border-radius: 8px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #512ae0;
+  list-style-type: none;
+}
+
+.project-modal .languages-list2 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  line-height: 16px;
+  color: #7a869a;
+  margin-left: 5px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.project-modal .languages-list2 li {
+  display: inline;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  list-style: none;
+  margin-right: 5px;
+}
+
+#modal-description {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 24px;
+  color: #344563;
+  margin-bottom: 1px;
+  margin-right: 10px;
+  width: auto;
+  height: auto;
+}
+
+#live-link {
+  border: 1px solid #dfe1e6;
+  border-radius: 8px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  color: #2464d4;
+  text-decoration: none;
+}
+
+#source-link {
+  border: 1px solid #dfe1e6;
+  border-radius: 8px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  color: #2464d4;
+  text-decoration: none;
+}
+
+#project-image {
+  width: 400px;
+  height: 350px;
+}
+
+#ruby-modal {
+  display: none;
+}
+
+#bootstrap-modal {
+  display: none;
+}
+
+#github-modal {
+  display: none;
+}
