@@ -1640,18 +1640,19 @@ form ul {
 }
 
 .project-modal .languages-list li {
-  background: #fff;
-  padding: 10px;
+  background: #ebebff;
+  padding-top: 5px;
   margin: 0 5px;
   border: 1px solid #dfe1e6;
   border-radius: 8px;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 10px;
   line-height: 16px;
-  color: #512ae0;
+  color: #6070ff;
   list-style-type: none;
+  margin-top: 5px;
 }
 
 .project-modal .languages-list2 {
@@ -1767,6 +1768,18 @@ form ul {
   display: none;
 }
 
+#html-modal {
+  padding: 8px;
+}
+
+#css-modal {
+  padding: 8px;
+}
+
+#java-modal {
+  padding: 8px;
+}
+
 @media screen and (min-width: 768px) {
   .modal-container {
     padding: 77px 142px;
@@ -1808,18 +1821,21 @@ form ul {
     display: flex;
     height: 6px;
     margin-top: -9px;
+    padding: 8px;
   }
 
   #github-modal {
     display: flex;
     height: 6px;
     margin-top: -9px;
+    padding: 8px;
   }
 
   #bootstrap-modal {
     display: flex;
     height: 6px;
     margin-top: -9px;
+    padding: 8px;
   }
 
   #css-modal {
@@ -1857,5 +1873,6 @@ form ul {
 
   #link-group {
     margin-left: 470px;
+    margin-top: 20px;
   }
 }
