@@ -88,11 +88,11 @@ const projects = [
     sourceLink: 'See Source',
     description: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita. ",
   },
-]
+];
 document.getElementById('button-see').addEventListener('click', () => {
   document.getElementById('modal-container').style.display = 'block';
   document.getElementById('project-name').textContent = projects[0].projectName;
-  document.getElementById('canopy-modal').textContent= projects[0].projectClasses1;
+  document.getElementById('canopy-modal').textContent = projects[0].projectClasses1;
   document.getElementById('back-modal').textContent = projects[0].projectClasses2;
   document.getElementById('year-modal').textContent = projects[0].projectClasses3;
   document.getElementById('project-image').src = projects[0].projectImage;
@@ -129,7 +129,7 @@ document.getElementById('button-tonic-3').addEventListener('click', () => {
   document.getElementById('canopy-modal').textContent = projects[2].projectClasses1;
   document.getElementById('back-modal').textContent = projects[2].projectClasses2;
   document.getElementById('year-modal').textContent = projects[2].projectClasses3;
-  document.getElementById('project-image').src= projects[2].projectImage;
+  document.getElementById('project-image').src = projects[2].projectImage;
   document.getElementById('html-modal').textContent = projects[2].languages1;
   document.getElementById('css-modal').textContent = projects[2].languages2;
   document.getElementById('bootstrap-moda1').textContent = projects[2].languages3;
