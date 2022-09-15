@@ -1482,6 +1482,18 @@ form ul {
   .overlay {
     display: none;
   }
+
+  .project-modal {
+    background-color: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    width: 85%;
+    height: 85%;
+    margin: auto;
+    margin-top: 5%;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 42px;
+  }
 }
 
 * :focus {
@@ -1584,47 +1596,44 @@ form ul {
 }
 
 .project-modal {
-  background: #fff;
+  background-color: #fff;
   border: 1px solid #dfe1e6;
-  height: 100vh;
-  padding: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 10px;
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
+  border-radius: 16px;
+  width: 75%;
+  height: 94%;
+  margin: auto;
+  margin-top: 2%;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 42px;
 }
 
 .modal-container {
-  position: fixed;
-  background-color: rgba(253, 253, 253, 0.8);
-  width: 100%;
-  top: 0;
-  left: 0;
+  width: 102vw;
+  height: 102vh;
+  background: 20%;
   backdrop-filter: blur(8px);
-  height: 100%;
+  position: fixed;
+  top: 0.1px;
+  left: 0.1px;
   display: none;
-  margin-right: 10px;
-  height: 100%;
-  
 }
 
-.project-modal #project-name {
-  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+#project-name {
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
   text-align: left;
+  margin-top: -35px;
 }
 
 .project-modal .languages-list {
   display: flex;
   flex-direction: row;
   padding-left: 0;
-  margin-top: 0;
+  margin-top: 8px;
   margin-bottom: 10px;
   list-style-type: none;
 }
@@ -1650,53 +1659,36 @@ form ul {
   line-height: 16px;
   color: #7a869a;
   margin-left: 5px;
-  margin-top: 20px;
+  margin-top: 5px;
   font-weight: 600;
   font-size: 13px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   text-align: left;
 }
 
 .project-modal .languages-list2 li {
   display: inline;
-  margin-top: 25px;
-  margin-bottom: 10px;
+  margin-top: 5px;
   list-style: none;
-  margin-right: 5px;
+  margin-bottom: 20px;
+  margin-right: 15px;
 }
 
 #modal-description {
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 24px;
   color: #344563;
-  margin-bottom: 1px;
-  margin-right: 10px;
+  margin-top: 10px;
   width: auto;
-  height: auto;
-}
-
-#live-link {
-  border: 1px solid #dfe1e6;
-  border-radius: 8px;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  color: #2464d4;
-  text-decoration: none;
-}
-
-#source-link {
-  border: 1px solid #dfe1e6;
-  border-radius: 8px;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  color: #2464d4;
-  text-decoration: none;
 }
 
 #project-image {
-  width: 400px;
-  height: 350px;
+  width: 340px;
+  height: 250px;
+  margin-left: 15px;
 }
 
 #ruby-modal {
@@ -1709,4 +1701,175 @@ form ul {
 
 #github-modal {
   display: none;
+}
+
+.modal-close {
+  border-bottom: none;
+  margin-left: 330px;
+  margin-top: 14px;
+  border-radius: 8px;
+}
+
+#live-link {
+  border-radius: 8px;
+  color: #396df2;
+  width: 100px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03px;
+  border: 1.5px solid #396df2;
+  margin-left: 50px;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+
+#source-link {
+  border-radius: 8px;
+  color: #396df2;
+  width: 100px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03px;
+  border: 1.5px solid #396df2;
+  margin-top: -20px;
+  margin-left: 60px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+#link-group {
+  margin-left: 60px;
+  margin-top: -10;
+}
+
+#clases-modal {
+  display: flex;
+  flex-direction: row;
+}
+
+#size {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-container {
+    padding: 77px 142px;
+    margin-top: -80px;
+    margin-bottom: 80px;
+    width: 70%;
+    height: 98%;
+    margin-left: 90px;
+  }
+
+  #project-modal {
+    height: 95%;
+  }
+
+  #project-image {
+    width: 630px;
+    height: 350px;
+    margin-left: 40px;
+    margin-top: -10px;
+  }
+
+  #descrip-container {
+    flex-direction: row;
+    display: inline;
+  }
+
+  #modal-description {
+    width: 370px;
+    height: 35px;
+    margin-left: 40px;
+    margin-top: 2px;
+  }
+
+  #size {
+    display: flex;
+  }
+
+  #ruby-modal {
+    display: flex;
+    height: 6px;
+    margin-top: -9px;
+  }
+
+  #github-modal {
+    display: flex;
+    height: 6px;
+    margin-top: -9px;
+  }
+
+  #bootstrap-modal {
+    display: flex;
+    height: 6px;
+    margin-top: -9px;
+  }
+
+  #css-modal {
+    height: 6px;
+    margin-top: -40px;
+  }
+
+  #java-modal {
+    height: 6px;
+    margin-top: -40px;
+  }
+
+  #html-modal {
+    height: 6px;
+    margin-top: -40px;
+  }
+
+  #modal-close {
+    margin-left: 650px;
+    border-bottom: 0 0 0 0;
+  }
+
+  .languages-list {
+    margin-left: 450px;
+  }
+
+  #project-name {
+    margin-top: -40px;
+    margin-left: 40px;
+  }
+
+  #live-link {
+    margin-left: 490px;
+    box-sizing: border-box;
+    display: flex;
+    padding: 5px 5px;
+    gap: 10px;
+    width: 80px;
+    height: 30px;
+    left: -2px;
+    bottom: 4px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  #source-link {
+    margin-left: 585px;
+    box-sizing: border-box;
+    display: flex;
+    padding: 8px 8px;
+    gap: 10px;
+    width: 100px;
+    height: 30px;
+    left: 5px;
+    bottom: 6px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    margin-top: -30px;
+  }
+
+  #languages-list2 {
+    margin-left: 40px;
+  }
 }
