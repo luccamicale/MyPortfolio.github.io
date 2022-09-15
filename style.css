@@ -1608,7 +1608,7 @@ form ul {
 }
 
 .modal-container {
-  width: 102vw;
+  width: 88vw;
   height: 102vh;
   background: 20%;
   backdrop-filter: blur(8px);
@@ -1627,6 +1627,7 @@ form ul {
   color: #172b4d;
   text-align: left;
   margin-top: -35px;
+  margin-left: 15px;
 }
 
 .project-modal .languages-list {
@@ -1658,7 +1659,7 @@ form ul {
   font-style: normal;
   line-height: 16px;
   color: #7a869a;
-  margin-left: 5px;
+  margin-left: 15px;
   margin-top: 5px;
   font-weight: 600;
   font-size: 13px;
@@ -1681,13 +1682,16 @@ form ul {
   font-size: 12px;
   line-height: 24px;
   color: #344563;
-  margin-top: 10px;
-  width: auto;
+  margin-top: 5px;
+  width: 300px;
+  height: 180px;
+  margin-left: 15px;
+  margin-bottom: 10px;
 }
 
 #project-image {
-  width: 340px;
-  height: 250px;
+  width: 290px;
+  height: 230px;
   margin-left: 15px;
 }
 
@@ -1705,44 +1709,53 @@ form ul {
 
 .modal-close {
   border-bottom: none;
-  margin-left: 330px;
+  margin-left: 280px;
   margin-top: 14px;
   border-radius: 8px;
 }
 
-#live-link {
+.link-live {
+  display: flex;
+  flex-direction: row;
   border-radius: 8px;
   color: #396df2;
   width: 100px;
-  height: 40px;
+  height: 30px;
   font-size: 14px;
   line-height: 16px;
-  letter-spacing: 0.03px;
-  border: 1.5px solid #396df2;
-  margin-left: 50px;
-  padding-bottom: 10px;
-  text-decoration: none;
+  border: 1px solid #396df2;
+  justify-content: center;
+  align-items: center;
 }
 
-#source-link {
+.link-source {
+  display: flex;
+  flex-direction: row;
   border-radius: 8px;
   color: #396df2;
-  width: 100px;
-  height: 40px;
+  width: 120px;
+  height: 30px;
   font-size: 14px;
   line-height: 16px;
-  letter-spacing: 0.03px;
-  border: 1.5px solid #396df2;
-  margin-top: -20px;
-  margin-left: 60px;
-  padding-bottom: 10px;
-  text-decoration: none;
-  margin-bottom: 20px;
+  border: 1px solid #396df2;
+  justify-content: center;
+  align-items: center;
+}
+
+#photo-git {
+  width: 25px;
+  height: 25px;
+}
+
+#photo-link {
+  width: 25px;
+  height: 25px;
 }
 
 #link-group {
-  margin-left: 60px;
-  margin-top: -10;
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
 }
 
 #clases-modal {
@@ -1838,38 +1851,11 @@ form ul {
     margin-left: 40px;
   }
 
-  #live-link {
-    margin-left: 490px;
-    box-sizing: border-box;
-    display: flex;
-    padding: 5px 5px;
-    gap: 10px;
-    width: 80px;
-    height: 30px;
-    left: -2px;
-    bottom: 4px;
-    border: 1px solid #6070ff;
-    border-radius: 8px;
-    margin-top: 20px;
-    text-align: center;
-  }
-
-  #source-link {
-    margin-left: 585px;
-    box-sizing: border-box;
-    display: flex;
-    padding: 8px 8px;
-    gap: 10px;
-    width: 100px;
-    height: 30px;
-    left: 5px;
-    bottom: 6px;
-    border: 1px solid #6070ff;
-    border-radius: 8px;
-    margin-top: -30px;
-  }
-
   #languages-list2 {
     margin-left: 40px;
+  }
+
+  #link-group {
+    margin-left: 470px;
   }
 }
