@@ -197,3 +197,21 @@ form.addEventListener('submit', (e) => {
     word.textContent = 'The email must be in lowercase';
   }
 });
+
+const myObject = {
+  UserName: '',
+  Email: '',
+  Usermessage: '',
+};
+
+form.addEventListener('change', () => {
+  myObject.UserName = document.getElementById('name').value;
+  myObject.Email = document.getElementById('mail').value;
+  myObject.Usermessage = document.querySelector('msg').value;
+  localStorage.setItem('saved', JSON.stringify(myObject));
+});
+
+const storageObject = JSON.parse(localStorage.getItem('saved'));
+document.getElementById('name').value = storageObject.UserName;
+document.getElementById('mail').value = storageObject.Email;
+document.querySelector('msg').value = storageObject.Usermessage;
