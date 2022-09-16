@@ -1599,7 +1599,7 @@ form ul {
   background-color: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  width: 75%;
+  width: 81%;
   height: 94%;
   margin: auto;
   margin-top: 2%;
@@ -1608,7 +1608,7 @@ form ul {
 }
 
 .modal-container {
-  width: 88vw;
+  width: 102vw;
   height: 102vh;
   background: 20%;
   backdrop-filter: blur(8px);
@@ -1626,7 +1626,7 @@ form ul {
   line-height: 44px;
   color: #172b4d;
   text-align: left;
-  margin-top: -35px;
+  margin-top: -45px;
   margin-left: 15px;
 }
 
@@ -1652,7 +1652,7 @@ form ul {
   line-height: 16px;
   color: #6070ff;
   list-style-type: none;
-  margin-top: 5px;
+  margin-top: 46px;
 }
 
 .project-modal .languages-list2 {
@@ -1692,7 +1692,7 @@ form ul {
 
 #project-image {
   width: 290px;
-  height: 230px;
+  height: 210px;
   margin-left: 15px;
 }
 
@@ -1710,7 +1710,7 @@ form ul {
 
 .modal-close {
   border-bottom: none;
-  margin-left: 280px;
+  margin-left: 270px;
   margin-top: 14px;
   border-radius: 8px;
 }
@@ -1727,6 +1727,7 @@ form ul {
   border: 1px solid #396df2;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 
 .link-source {
@@ -1741,6 +1742,7 @@ form ul {
   border: 1px solid #396df2;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 
 #photo-git {
