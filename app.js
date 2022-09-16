@@ -198,20 +198,20 @@ form.addEventListener('submit', (e) => {
   }
 });
 
-const myObject = {
-  UserNames: '',
-  Email: '',
-  Usermessage: '',
+const objectStrg = {
+  name: '',
+  mail: '',
+  msj: '',
 };
 
-form.addEventListener('change', () => {
-  myObject.UserNames = document.getElementById('name').value;
-  myObject.Email = document.getElementById('mail').value;
-  myObject.Usermessage = document.querySelector('msg').value;
-  localStorage.setItem('saved', JSON.stringify(myObject));
+form.addEventListener('click', () => {
+  objectStrg.name = document.getElementById('name').value;
+  objectStrg.mail = document.getElementById('mail').value;
+  objectStrg.msj = document.getElementById('msg').value;
+  localStorage.setItem('stored', JSON.stringify(objectStrg));
 });
 
-const storageObject = JSON.parse(localStorage.getItem('saved'));
-document.getElementById('name').value = storageObject.UserNames;
-document.getElementById('mail').value = storageObject.Email;
-document.querySelector('msg').value = storageObject.Usermessage;
+const storedInfo = JSON.parse(localStorage.getItem('stored'));
+document.getElementById('name').value = storedInfo.name;
+document.getElementById('mail').value = storedInfo.mail;
+document.getElementById('msg').value = storedInfo.msj;
