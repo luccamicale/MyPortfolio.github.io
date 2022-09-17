@@ -199,7 +199,7 @@ form.addEventListener('submit', (e) => {
 });
 
 const inputName = document.getElementById('name');
-const inputText = document.getElementById('mail');
+const inputText = document.getElementById('msg');
 
 form.addEventListener('input', () => {
   const myObj = {
