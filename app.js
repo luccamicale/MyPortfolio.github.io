@@ -198,20 +198,23 @@ form.addEventListener('submit', (e) => {
   }
 });
 
-const objectStrg = {
-  name: '',
-  mail: '',
-  msj: '',
-};
+const inputName = document.getElementById('name');
+const inputText = document.getElementById('mail');
 
-form.addEventListener('click', () => {
-  objectStrg.name = document.getElementById('name').value;
-  objectStrg.mail = document.getElementById('mail').value;
-  objectStrg.msj = document.getElementById('msg').value;
-  localStorage.setItem('stored', JSON.stringify(objectStrg));
+form.addEventListener('input', () => {
+  const myObj = {
+    nameValue: inputName.value,
+    emailValue: mail.value,
+    textAreaValue: inputText.value,
+  };
+  localStorage.setItem('userFormData', JSON.stringify(myObj));
 });
 
-const storedInfo = JSON.parse(localStorage.getItem('stored'));
-document.getElementById('name').value = storedInfo.name;
-document.getElementById('mail').value = storedInfo.mail;
-document.getElementById('msg').value = storedInfo.msj;
+let getData = localStorage.getItem('userFormData');
+getData = JSON.parse(getData);
+
+if (getData != null) {
+  inputName.value = getData.nameValue;
+  mail.value = getData.emailValue;
+  inputText.value = getData.textAreaValue;
+}
