@@ -592,7 +592,6 @@ form ul {
     margin-top: 1px;
   }
 
-
   .languages2 {
     margin-top: 200px;
     color: #344563;
@@ -758,7 +757,6 @@ hr {
   background-color: rgb(129, 115, 255);
   color: rgb(255, 253, 253);
   padding: 5px 5px;
-  border: none;
   cursor: pointer;
   border-radius: 6px;
   border: 1px solid #2230d2;
@@ -772,7 +770,6 @@ hr {
 }
 
 .container-but-tesla {
-  width: 280px;
   width: 280px;
   margin-left: -10px;
   margin-bottom: 20px;
@@ -810,7 +807,7 @@ hr {
   .card-img-top {
     height: 250px;
     width: 50%;
-  } 
+  }
 
   .card {
     width: 80%;
