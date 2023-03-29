@@ -842,3 +842,53 @@ hr {
     margin-right: 20px;
   }
 }
+
+.about {
+  width: 310px;
+  height: 90px;
+  font-size: 50px;
+  margin-left: 40px;
+  margin-top: 80px;
+}
+
+.description {
+  width: 85%;
+  margin-left: 18px;
+  margin-top: 60px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.lets-connect {
+  margin-left: 40px;
+  margin-top: 30px;
+  color: #6070ff;
+}
+
+.container-emojis {
+  display: flex;
+  flex-direction: row;
+}
+
+.emoji {
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+.lucca {
+  position: absolute;
+  margin-top: -610px;
+  color: #6070ff;
+}
+
+.getresume {
+  margin-left: 40px;
+  text-decoration: none;
+  border: 1px solid #6070ff;
+  border-radius: 16px;
+  padding: 10px;
+}
+
+.div-resume {
+  margin-top: 50px;
+}
