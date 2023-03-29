@@ -218,3 +218,31 @@ if (getData != null) {
   mail.value = getData.emailValue;
   inputText.value = getData.textAreaValue;
 }
+
+function toggleLanguages() {
+  var list = document.getElementById("languages");
+  if (list.style.display === "none") {
+  list.style.display = "block";
+  } else {
+  list.style.display = "none";
+  }
+}
+  
+function toggleFrameworks() {
+  var list = document.getElementById("frameworks");
+  if (list.style.display === "none") {
+  list.style.display = "block";
+  } else {
+  list.style.display = "none";
+  }
+}
+
+function toggleSkills() {
+  var list = document.getElementById("skills");
+  if (list.style.display === "none") {
+  list.style.display = "block";
+  } else {
+  list.style.display = "none";
+  }
+}
+

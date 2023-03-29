@@ -729,6 +729,7 @@ form ul {
 .title-recent-work {
   color: #5e6c84;
   text-align: center;
+  margin-top: 50px;
 }
 
 hr {
@@ -891,4 +892,29 @@ hr {
 
 .div-resume {
   margin-top: 50px;
+}
+
+#languages, #frameworks, #skills {
+  border: none;
+  background: none;
+  margin-left: 50px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.lang-but {
+  border: none;
+  background: none;
+  margin-left: 40px;
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+.li-item {
+  background: rgb(240, 240, 240);
+  width: 70%;
+  border-radius: 8px;
+  padding: 5px;
+  margin-bottom: 5%;
+  font-size: 14px;
 }
