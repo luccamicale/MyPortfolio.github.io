@@ -125,9 +125,14 @@
   top: 550px;
 }
 
-.content {
-  padding-right: 25px;
-  display: inline;
+.container-a {
+  display: none;
+}
+
+nav a {
+  color: #6070ff;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 .fondoo {
@@ -473,70 +478,8 @@ form ul {
     margin-top: 60px;
   }
 
-  .portfolio {
-    position: absolute;
-    width: 76px;
-    height: 20px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #344563;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    top: 29px;
-    text-decoration: none;
-    padding-left: 785px;
-  }
-
-  .about2 {
-    position: absolute;
-    width: 63px;
-    height: 20px;
-    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #344563;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    top: 29px;
-    text-decoration: none;
-    padding-left: 880px;
-  }
-
   .menu-media {
     display: flex;
-  }
-
-  .contact3 {
-    position: absolute;
-    width: 63px;
-    height: 20px;
-    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #344563;
-    flex: none;
-    order: 0;
-    top: 29px;
-    text-decoration: none;
-    padding-left: 955px;
   }
 
   .textt {
@@ -631,6 +574,16 @@ form ul {
     margin-top: 5%;
     font-family: 'Poppins', sans-serif;
     margin-left: 42px;
+  }
+
+  .container-a {
+    padding-right: 25px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .text {
+    width: 190%;
   }
 }
 
@@ -804,6 +757,16 @@ hr {
   border-radius: 16px;
 }
 
+.main-title {
+  width: 80%;
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+.text {
+  margin-left: 20px;
+}
+
 @media (min-width: 728px) {
   .card-img-top {
     height: 250px;
@@ -842,6 +805,12 @@ hr {
   .btn-blue {
     margin-right: 20px;
   }
+
+  .main-title {
+    width: 180%;
+    font-size: 55px;
+    margin-left: 20px;
+  }
 }
 
 .about {
@@ -862,7 +831,7 @@ hr {
 
 .lets-connect {
   margin-left: 40px;
-  margin-top: 30px;
+  margin-top: -30px;
   color: #6070ff;
 }
 
@@ -880,6 +849,8 @@ hr {
   position: absolute;
   margin-top: -610px;
   color: #6070ff;
+  margin-left: -165px;
+  display: flex;
 }
 
 .getresume {
@@ -894,7 +865,9 @@ hr {
   margin-top: 50px;
 }
 
-#languages, #frameworks, #skills {
+#languages,
+#frameworks,
+#skills {
   border: none;
   background: none;
   margin-left: 50px;
@@ -917,4 +890,109 @@ hr {
   padding: 5px;
   margin-bottom: 5%;
   font-size: 14px;
+}
+
+.container-html {
+  display: flex;
+  flex-direction: row;
+}
+
+.img-logo {
+  margin-right: 12px;
+}
+
+.li-item-lang {
+  background: rgb(240, 240, 240);
+  width: 70%;
+  border-radius: 8px;
+  padding: 5px;
+  margin-bottom: 5%;
+  font-size: 14px;
+}
+
+.lets-connect-about {
+  margin-left: 40px;
+  margin-top: 30px;
+  color: #6070ff;
+}
+
+.container-emojis-about {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+@media (min-width: 728px) {
+  .about-section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .lets-connect {
+    margin-left: 300px;
+    margin-top: -100px;
+    color: #6070ff;
+    font-size: 20px;
+  }
+
+  .description {
+    width: 80%;
+  }
+
+  .title-desc-about {
+    width: 50%;
+    margin-left: 7%;
+  }
+
+  .languages-about {
+    width: 50%;
+  }
+
+  .li-item-lang {
+    width: 80px;
+    height: 80px;
+    margin-right: 18px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  #languages {
+    display: flex;
+  }
+
+  .container-emojis {
+    display: flex;
+    flex-direction: row;
+    margin-left: 290px;
+    margin-top: 15px;
+  }
+}
+
+.photo-room {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  transition: transform 0.1s ease;
+  animation: slide-in 8s linear infinite;
+}
+
+.photo-room:hover {
+  transform: scale(1.2) rotate(10deg);
+}
+
+.container-photo {
+  margin-top: -10px;
+  margin-bottom: -100px;
+  height: 50%;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
 }

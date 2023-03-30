@@ -19,20 +19,22 @@
             <header class="header">
               <nav class="content">
                 <a class="menu" id="menu-main-main" href="#"><img src="images/mennu.PNG" alt="My Menu"></a>
-                <p class="lucca">LUCCA MICALE</p>
-                <a class="portfolio" href="#work">Portfolio</a>
-                <a class="about2" href="#about-me">About</a>
-                <a class="contact3" href="#contact-me">Contact</a>
+                <div class="container-a">
+                    <p class="lucca">LUCCA MICALE</p>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#about" >About</a>
+                    <a href="#contact">Contact</a>
+                </div>
               </nav>    
             </header>
             
             <div class="contenedor">
               <header>
-                <h1>Im Lucca Glad to see you!</h1>
+                <h1 class="main-title">Im Lucca Glad to see you!</h1>
               </header>
             </div>
             <div class="main">
-              <p>Im a software developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+              <p class="text">Im a software developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
             </div>
             <h6 class="lets-connect">LETS CONNECT</h6>
             <div>
@@ -48,7 +50,7 @@
         </div>
     
           
-        <section class="cards-container">
+        <section class="cards-container" id="portfolio">
             <div class="container-recent">
                 <div>
                     <h2 class="title-recent-work">My Recent Works</h2>
@@ -69,7 +71,7 @@
                             <button class="btn btn-blue">Ruby on Rails</button>
                             <button class="btn btn-blue">PostgreSQL</button>
                         </div>
-                        <a href="#" class="btn btn-primary">See Project</a>
+                        <button class="btn btn-primary" id="button-see-tesla">See Project</button>
                       </div>
                   </div>
                   <div class="card">
@@ -131,13 +133,13 @@
             </div>    
         </section>
 
-        <section class="about-section">
+        <section class="about-section" id="about">
             <div class="title-desc-about">
                 <h1 class="about">About Myself</h1>
                 <h4 class="description">Hello Im a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, dont hestiate to contact me.</h4>
-                <h6 class="lets-connect">LETS CONNECT</h6>
+                <h6 class="lets-connect-about">LETS CONNECT</h6>
                 <div>
-                    <ul class="container-emojis">
+                    <ul class="container-emojis-about">
                         <li><a href="https://twitter.com/LuccaMicale_"><img class="emoji" src="images/twitterr.webp" alt="Twitter"></a></li>
                         <li><a href="http://www.linkedin.com/in/luccamicale"><img class="emoji" src="images/social.webp" alt="Linkedin"></a></li>
                         <li><a href="https://medium.com/@luccamicale2015"><img class="emoji" src="images/medium1_.webp" alt="Medium"></a></li>
@@ -146,23 +148,23 @@
                         <li><a></a></li>
                     </ul>
                 </div>
-            </div>
-            <div>
                 <div class="div-resume">
                     <a class="getresume" href="https://docs.google.com/document/d/1nA0UH_Zj1H85hd9hlR5SZMKUAlm819rVUNrr6aKk9nA/edit#heading=h.sepaz71ln312">Get My Resume</a>
                 </div>
+            </div>
+            <div class="languages-about">
                 <div>
-                    <button class="lang-but" onclick="toggleLanguages()">Languages</button>
-                    <ul id="languages" style="display:none">
-                        <li class="li-item">HTML</li>
-                        <li class="li-item">CSS</li>
-                        <li class="li-item">Javascript</li>
-                       <li class="li-item">Ruby</li>
+                    <button class="lang-but" >Languages</button>
+                    <ul id="languages"> 
+                        <li class="li-item-lang"><img class="img-logo" src="images/icons8-html-5-48.webp">HTML</li>
+                        <li class="li-item-lang"><img class="img-logo" src="images/icons8-css3-48.webp">CSS</li>
+                        <li class="li-item-lang"><img class="img-logo" src="images/icons8-javascript-48.webp">JS</li>
+                       <li class="li-item-lang"><img class="img-logo" src="images/ons8-piedra-preciosa-de-rub195173-48.webp">Ruby</li>
                     </ul>
                 </div>
                 <hr>
                 <div>
-                    <button class="lang-but" onclick="toggleFrameworks()">Frameworks</button>
+                    <button class="lang-but" onclick="toggleFrameworks()"><img class="arrow" src="images/chebr195179n-hacia-la-derecha-24-1.webp">Frameworks</button>
                     <ul id="frameworks" style="display:none">
                         <li class="li-item">React</li>
                         <li class="li-item">Redux</li>
@@ -174,19 +176,22 @@
                 </div>
                 <hr>
                 <div>
-                    <button class="lang-but" onclick="toggleSkills()">Skills</button>
+                    <button class="lang-but" onclick="toggleSkills()"><img class="arrow" src="images/chebr195179n-hacia-la-derecha-24-1.webp">Skills</button>
                     <ul id="skills" style="display:none">
-                        <li class="li-item">React</li>
-                        <li class="li-item">Redux</li>
-                        <li class="li-item">Ruby on Rails</li>
-                        <li class="li-item">Bootstrap</li>
+                        <li class="li-item">Git</li>
+                        <li class="li-item">GitHub</li>
+                        <li class="li-item">PostgreSQL</li>
+                        <li class="li-item">Remote Pair Programming</li>
                     </ul>
                 </div>
                 <hr>
             </div>
         </section>
+        <div class="container-photo">
+            <img class="photo-room" src="images/photoroom-20230318-234821.webp">
+        </div>
         
-        <section class="contact" id="contactme">
+        <section class="contact" id="contact">
             <div class="recta">
                 <img class="rectan1" src="images/Rectangle42.png" alt="figure">
                 <img class="rectan2" src="images/Rectangle17.png" alt="figure one">
@@ -224,12 +229,12 @@
                 <a href="#"><img src="images/Enabled.png" alt="icom-cancel"></a>
             </div>
             <ul class="menu-main">
-                <li><a class="menu-cancel" id="menu-can1" href="#work">Portfolio</a></li>
-                <li><a class="menu-cancel" id="menu-can2" href="#about-me">About</a></li>
-                <li><a class="menu-cancel" id="menu-can3" href="#contact-me">Contact</a></li>
+                <li><a class="menu-cancel" id="menu-can1" href="#portfolio">Portfolio</a></li>
+                <li><a class="menu-cancel" id="menu-can2" href="#about">About</a></li>
+                <li><a class="menu-cancel" id="menu-can3" href="#contact">Contact</a></li>
             </ul>
         </div>
-    </section>
+    
 
 
     <script src="app.js"></script>
