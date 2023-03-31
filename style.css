@@ -137,6 +137,7 @@ nav a {
 
 .fondoo {
   padding-top: 40px;
+  margin-left: 2px;
 }
 
 .menu {
@@ -157,6 +158,7 @@ nav a {
   text-decoration: none;
   padding-left: 280px;
   display: flex;
+  margin-left: 17px;
 }
 
 .sub1 {
