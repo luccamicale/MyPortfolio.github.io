@@ -314,7 +314,7 @@ nav a {
   width: 140px;
   height: 40px;
   color: #6070ff;
-  margin-left: 11px;
+  margin-left: 41px;
 }
 
 form {
@@ -327,6 +327,7 @@ form {
 
 form ul {
   list-style-type: none;
+  margin-left: -12px;
 }
 
 #sub:hover {
@@ -691,6 +692,7 @@ hr {
 
 .card-img-top {
   height: 140px;
+  border-radius: 8px;
 }
 
 .container-recent {
@@ -773,6 +775,7 @@ hr {
   .card-img-top {
     height: 250px;
     width: 50%;
+    border-radius: 8px;
   }
 
   .card {
