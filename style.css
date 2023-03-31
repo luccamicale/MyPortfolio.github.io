@@ -627,7 +627,6 @@ form ul {
 }
 
 #menu-can1 {
-  position: absolute;
   height: 24px;
   left: 40px;
   right: 68px;
@@ -640,10 +639,10 @@ form ul {
   align-items: center;
   color: #fff;
   margin-top: 60px;
+  margin-bottom: -70px;
 }
 
 #menu-can2 {
-  position: absolute;
   height: 24px;
   left: 40px;
   right: 68px;
@@ -659,7 +658,6 @@ form ul {
 }
 
 #menu-can3 {
-  position: absolute;
   height: 24px;
   left: 40px;
   right: 68px;
@@ -671,7 +669,7 @@ form ul {
   display: flex;
   align-items: center;
   color: #fff;
-  margin-top: 140px;
+  margin-top: 38px;
 }
 
 .list-one {
@@ -737,6 +735,10 @@ hr {
   display: none;
 }
 
+#image-hide1 {
+  display: none;
+}
+
 .microverse {
   display: flex;
   flex-direction: row;
@@ -789,7 +791,15 @@ hr {
     display: flex;
   }
 
+  #image-hide1 {
+    display: flex;
+  }
+
   #image-show {
+    display: none;
+  }
+
+  #image-show1 {
     display: none;
   }
 
@@ -845,14 +855,6 @@ hr {
   margin-top: 15px;
 }
 
-.lucca {
-  position: absolute;
-  margin-top: -610px;
-  color: #6070ff;
-  margin-left: -165px;
-  display: flex;
-}
-
 .getresume {
   margin-left: 40px;
   text-decoration: none;
@@ -865,7 +867,14 @@ hr {
   margin-top: 50px;
 }
 
-#languages,
+#languages {
+  border: none;
+  background: none;
+  margin-left: 50px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
 #frameworks,
 #skills {
   border: none;
@@ -873,6 +882,7 @@ hr {
   margin-left: 50px;
   margin-top: 10px;
   font-size: 20px;
+  display: none;
 }
 
 .lang-but {
@@ -994,5 +1004,162 @@ hr {
 
   100% {
     transform: translateX(100%);
+  }
+}
+
+.modal-container {
+  display: none;
+  position: fixed;
+  top: -15px;
+  backdrop-filter: blur(100px) saturate(150%) brightness(80%);
+  height: 150vh;
+  width: 100%;
+}
+
+.project-modal {
+  border: 1px solid rgb(178, 178, 178);
+  width: 80%;
+  margin: 40px;
+  border-radius: 16px;
+  background-color: #fff;
+}
+
+.modal-close {
+  border-radius: 10px;
+  margin-left: 85%;
+  margin-top: 10px;
+}
+
+.project-name {
+  margin-left: 20px;
+  margin-top: -20px;
+  font-size: 30px;
+}
+
+.languages-list2 {
+  display: flex;
+  margin-top: 25px;
+}
+
+#canopy-modal,
+#back-modal,
+#year-modal {
+  font-size: 12px;
+  margin-right: 29px;
+}
+
+#project-image {
+  width: 95%;
+  margin-left: 8px;
+  border-radius: 8px;
+  height: 150px;
+}
+
+#banana {
+  font-size: 15px;
+  color: rgb(170, 170, 170);
+  text-align: initial;
+  margin-top: 35px;
+  margin-left: 10px;
+}
+
+#languages-list {
+  margin-left: 30px;
+  display: flex;
+  margin-top: 25px;
+}
+
+#languages-list3 {
+  display: flex;
+  margin-top: 25px;
+}
+
+#css-modal,
+#html-modal,
+#java-modal,
+#ruby-modal,
+#bootstrap-modal,
+#github-modal {
+  font-size: 12px;
+  margin-right: 17px;
+  text-align: center;
+  border: 1px solid rgb(34, 48, 210);
+  border-radius: 6px;
+  padding: 4px;
+  color: rgb(255, 253, 253);
+  background-color: rgb(129, 115, 255);
+}
+
+#css-modal:hover,
+#html-modal:hover,
+#java-modal:hover,
+#ruby-modal:hover,
+#bootstrap-modal:hover,
+#github-modal:hover {
+  color: #151515;
+  background-color: #99a3ff;
+}
+
+#link-group {
+  display: flex;
+  width: 120%;
+  margin: 40px;
+}
+
+.link-source,
+.link-live {
+  display: flex;
+  border: 1px solid #6070ff;
+  margin-right: 15px;
+  border-radius: 6px;
+  padding: 2px;
+}
+
+#photo-link {
+  width: 80%;
+}
+
+.div-image {
+  width: 30px;
+}
+
+#source-link,
+#live-link {
+  text-decoration: none;
+}
+
+@media (min-width: 728px) {
+  .modal-container {
+    width: 60%;
+    margin-left: 23%;
+    height: 90%;
+    margin-top: 5%;
+    backdrop-filter: blur(100px) saturate(150%) brightness(80%);
+  }
+
+  #project-image {
+    width: 65%;
+    height: 42%;
+    margin-left: 15%;
+    box-shadow: 2px 3px 4px 4px rgb(146, 146, 146);
+  }
+
+  .descrip-container {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  #banana {
+    width: 45%;
+    margin-left: 10%;
+  }
+
+  #languages-list {
+    margin-left: 10px;
+  }
+
+  #link-group {
+    margin-left: 199px;
+    margin-top: 10px;
   }
 }

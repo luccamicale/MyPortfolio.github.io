@@ -15,12 +15,10 @@
 <body>
         <div class="header">
             <img class="fondoo" src="images/header-shapesmobile.jpg" alt="Project Image">
-            
             <header class="header">
               <nav class="content">
                 <a class="menu" id="menu-main-main" href="#"><img src="images/mennu.PNG" alt="My Menu"></a>
                 <div class="container-a">
-                    <p class="lucca">LUCCA MICALE</p>
                     <a href="#portfolio">Portfolio</a>
                     <a href="#about" >About</a>
                     <a href="#contact">Contact</a>
@@ -63,7 +61,7 @@
                         <ul class="microverse">
                             <li class="li-microverse">MICROVERSE</li>
                             <li class="li-microverse">REMOTE</li>
-                            <li class="li-microverse">TEAMWORK</li>
+                            <li class="li-microverse">2023</li>
                           </ul>
                         <p class="card-text"> The Tesla app allows you to manage your Tesla products from anywhere. By providing you with a comprehensive view of your energy ecosystem</p>
                         <div class="container-but-tesla">
@@ -89,7 +87,7 @@
                           <button class="btn btn-blue">Ruby on Rails</button>
                           <button class="btn btn-blue">PostgreSQL</button>
                       </div>
-                      <a href="#" class="btn btn-primary">See Project</a>
+                      <button class="btn btn-primary" id="button-see-budget">See Project</button>
                     </div>
                     <img src="images/budget-app-home.webp" class="card-img-top" id="image-hide" alt="Budget">
                 </div>
@@ -108,11 +106,11 @@
                           <button class="btn btn-blue">Boostrap</button>
                           <button class="btn btn-blue">React</button>
                       </div>
-                      <a href="#" class="btn btn-primary">See Project</a>
+                      <button class="btn btn-primary" id="button-see-bookstore">See Project</button>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="images/crypto-home.webp" class="card-img-top" id="image-show" alt="crypto">
+                    <img src="images/crypto-home.webp" class="card-img-top" id="image-show1" alt="crypto">
                     <div class="card-body">
                       <h5 class="card-title">Crypto Currency</h5>
                       <ul class="microverse">
@@ -126,9 +124,9 @@
                           <button class="btn btn-blue">CSS</button>
                           <button class="btn btn-blue">React</button>
                       </div>
-                      <a href="#" class="btn btn-primary">See Project</a>
+                      <button class="btn btn-primary" id="button-see-crypto">See Project</button>
                     </div>
-                    <img src="images/crypto-home.webp" class="card-img-top" id="image-hide" alt="crypto">
+                    <img src="images/crypto-home.webp" class="card-img-top" id="image-hide1" alt="crypto">
                 </div>
             </div>    
         </section>
@@ -156,16 +154,16 @@
                 <div>
                     <button class="lang-but" >Languages</button>
                     <ul id="languages"> 
-                        <li class="li-item-lang"><img class="img-logo" src="images/icons8-html-5-48.webp">HTML</li>
-                        <li class="li-item-lang"><img class="img-logo" src="images/icons8-css3-48.webp">CSS</li>
-                        <li class="li-item-lang"><img class="img-logo" src="images/icons8-javascript-48.webp">JS</li>
-                       <li class="li-item-lang"><img class="img-logo" src="images/ons8-piedra-preciosa-de-rub195173-48.webp">Ruby</li>
+                        <li class="li-item-lang"><img class="img-logo" alt="icon" src="images/icons8-html-5-48.webp">HTML</li>
+                        <li class="li-item-lang"><img class="img-logo" alt="icon" src="images/icons8-css3-48.webp">CSS</li>
+                        <li class="li-item-lang"><img class="img-logo" alt="icon" src="images/icons8-javascript-48.webp">JS</li>
+                       <li class="li-item-lang"><img class="img-logo" alt="icon" src="images/ons8-piedra-preciosa-de-rub195173-48.webp">Ruby</li>
                     </ul>
                 </div>
                 <hr>
                 <div>
-                    <button class="lang-but" onclick="toggleFrameworks()"><img class="arrow" src="images/chebr195179n-hacia-la-derecha-24-1.webp">Frameworks</button>
-                    <ul id="frameworks" style="display:none">
+                    <button class="lang-but" onclick="toggleFrameworks()"><img class="arrow" alt="arrow" src="images/chebr195179n-hacia-la-derecha-24-1.webp">Frameworks</button>
+                    <ul id="frameworks">
                         <li class="li-item">React</li>
                         <li class="li-item">Redux</li>
                         <li class="li-item">Ruby on Rails</li>
@@ -176,8 +174,8 @@
                 </div>
                 <hr>
                 <div>
-                    <button class="lang-but" onclick="toggleSkills()"><img class="arrow" src="images/chebr195179n-hacia-la-derecha-24-1.webp">Skills</button>
-                    <ul id="skills" style="display:none">
+                    <button class="lang-but" onclick="toggleSkills()"><img class="arrow" alt="arrow" src="images/chebr195179n-hacia-la-derecha-24-1.webp">Skills</button>
+                    <ul id="skills">
                         <li class="li-item">Git</li>
                         <li class="li-item">GitHub</li>
                         <li class="li-item">PostgreSQL</li>
@@ -188,7 +186,7 @@
             </div>
         </section>
         <div class="container-photo">
-            <img class="photo-room" src="images/photoroom-20230318-234821.webp">
+            <img class="photo-room" alt="animation" src="images/photoroom-20230318-234821.webp">
         </div>
         
         <section class="contact" id="contact">
@@ -234,6 +232,49 @@
                 <li><a class="menu-cancel" id="menu-can3" href="#contact">Contact</a></li>
             </ul>
         </div>
+
+        <div class="modal-container" id="modal-container">
+            <div class="project-modal" id ="project-modal">
+                <button type="button" class="modal-close" id ="modal-close"><img id="photo-cancel" src="." alt=""></button>						
+                <h2 id="project-name" class="project-name">.</h2>
+                <ul class="languages-list2" id="languages-list2">
+                    <li id="canopy-modal"></li>
+                    <li id="back-modal"></li>
+                    <li id="year-modal"></li>
+                </ul>
+                <img src="." alt="project image" id="project-image" >					 						
+                <div class="descrip-container">
+                    <p id="banana"></p> 
+                        <div class="container-lang">
+                            <div id="drive-clases">
+                                <ul class="languages-list" id="languages-list">
+                                    <li id="css-modal"></li>
+                                    <li id="html-modal"></li>
+                                    <li id="java-modal"></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul class="languages-list" id="languages-list3">
+                                    <li id="ruby-modal"></li>
+                                    <li id="bootstrap-modal"></li>
+                                    <li id="github-modal"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                        <div id="link-group">
+                            <div class="link-live">
+                                <div><a id="live-link" href="https://reserve-tesla-car.onrender.com" target="new"></a></div>
+                                <div><img id="photo-git" src="." alt="Project Image"></div>
+                            </div>
+                            <br>
+                            <div class="link-source">
+                                <div><a id="source-link" href="https://github.com/luccamicale/Full-Stack-Capstone-Group" target="new"></a></div>
+                                <div class="div-image"><img id="photo-link" src="." alt="Project"></div>
+                            </div>
+                        </div>
+                </div>
+            </div>
     
 
 
