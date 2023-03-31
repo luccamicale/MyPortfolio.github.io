@@ -228,6 +228,7 @@ function toggleFrameworks() {
     list.style.display = 'none';
   }
 }
+toggleFrameworks();
 
 function toggleSkills() {
   const list = document.getElementById('skills');
@@ -237,3 +238,4 @@ function toggleSkills() {
     list.style.display = 'none';
   }
 }
+toggleSkills();

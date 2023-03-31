@@ -705,6 +705,7 @@ hr {
   margin-top: 105px;
   box-shadow: 10px 15px 10px rgb(0 0 0 / 25%);
   transition: transform 0.5s;
+  border-radius: 16px;
 }
 
 .btn-blue {
@@ -784,6 +785,7 @@ hr {
     flex-direction: row;
     margin-left: 80px;
     padding: 30px;
+    border-radius: 16px;
   }
 
   .container-recent {
@@ -1029,8 +1031,8 @@ hr {
 
 .modal-close {
   border-radius: 10px;
-  margin-left: 85%;
-  margin-top: 10px;
+  margin-left: 90%;
+  margin-top: 13px;
 }
 
 .project-name {
@@ -1060,7 +1062,7 @@ hr {
 
 #banana {
   font-size: 15px;
-  color: rgb(170, 170, 170);
+  color: rgb(139, 139, 139);
   text-align: initial;
   margin-top: 35px;
   margin-left: 10px;
@@ -1132,12 +1134,28 @@ hr {
 }
 
 @media (min-width: 728px) {
-  .modal-container {
+  /* .modal-container {
     width: 60%;
     margin-left: 23%;
     height: 90%;
     margin-top: 5%;
     backdrop-filter: blur(100px) saturate(150%) brightness(80%);
+  } */
+
+  .modal-container {
+    padding: 77px 142px;
+    margin-top: -40px;
+    margin-bottom: 90px;
+    width: 105%;
+    height: 148%;
+    backdrop-filter: blur(10px) saturate(100%) brightness(90%);
+    padding-left: 10%;
+  }
+
+  .project-modal {
+    width: 55%;
+    height: 65%;
+    margin-left: 19%;
   }
 
   #project-image {
