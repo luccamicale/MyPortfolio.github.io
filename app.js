@@ -22,87 +22,88 @@ for (let i = 0; i < linkss.length; i += 1) {
 const projects = [
   {
     projectId: 'project-1',
-    projectName: 'Tonic',
-    projectClasses1: 'CANOPY',
-    projectClasses2: '• Back End Dev',
-    projectClasses3: '• 2015',
-    projectImage: './images/SnapshootPortfolio(2).jpg',
+    projectName: 'Tesla Car',
+    projectClasses1: 'MICROVERSE',
+    projectClasses2: 'REMOTE',
+    projectClasses3: '2023',
+    projectImage: './images/land-tesla.webp',
     projectImage2: './images/IconCancel.png',
     projectImage3: './images/Icon-Export.png',
-    projectImage4: './images/iconGitHub.png',
-    languages1: 'CSS',
-    languages2: 'HTML',
-    languages3: 'Bootsrap',
-    languages4: 'Ruby',
-    languages5: 'GitHub',
-    languages6: 'Javascript',
+    projectImage4: './images/githubb.webp',
+    languages1: 'REACT',
+    languages2: 'RAILS',
+    languages3: 'POSTGRESQL',
+    languages4: 'GITHUB',
+    languages5: 'RENDER',
+    languages6: 'TEAMWORK',
     liveLink: 'See Live',
     sourceLink: 'See Source',
-    description: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita. ",
+    description: 'The Tesla app allows you to manage your Tesla products from anywhere. By providing you with a comprehensive view of your energy ecosystem',
   },
   {
     projectId: 'project-2',
-    projectName: 'My Post Stories',
-    projectClasses1: 'CANOPY',
-    projectClasses2: '• Back End Dev',
-    projectClasses3: '• 2015',
-    projectImage: './images/Snapshoot123Portfolio.png',
+    projectName: 'Budget App',
+    projectClasses1: 'MICROVERSE',
+    projectClasses2: 'REMOTE',
+    projectClasses3: '2023',
+    projectImage: './images/budget-app-home.webp',
     projectImage2: './images/IconCancel.png',
     projectImage3: './images/Icon-Export.png',
-    projectImage4: './images/iconGitHub.png',
-    languages1: 'CSS',
-    languages2: 'HTML',
-    languages3: 'Bootsrap',
-    languages4: 'Ruby',
-    languages5: 'GitHub',
-    languages6: 'Javascript',
+    projectImage4: './images/githubb.webp',
+    languages1: 'REACT',
+    languages2: 'RAILS',
+    languages3: 'POSTGRESQL',
+    languages4: 'GITHUB',
+    languages5: 'RENDER',
+    languages6: 'TESTING',
     liveLink: 'See Live',
     sourceLink: 'See Source',
-    description: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita. ",
+    description: ' A budgeting app is a software application that you may access from your computer, tablet or mobile device to track your finances.',
   },
   {
     projectId: 'project-3',
-    projectName: 'Tonic',
-    projectClasses1: 'CANOPY',
-    projectClasses2: '• Back End Dev',
-    projectClasses3: '• 2015',
-    projectImage: './images/SnapshootPortfolio77.jpg',
+    projectName: 'BookStore',
+    projectClasses1: 'MICROVERSE',
+    projectClasses2: 'REMOTE',
+    projectClasses3: '2022',
+    projectImage: './images/bookstore-home.webp',
     projectImage2: './images/IconCancel.png',
     projectImage3: './images/Icon-Export.png',
-    projectImage4: './images/iconGitHub.png',
-    languages1: 'CSS',
-    languages2: 'HTML',
-    languages3: 'Bootsrap',
-    languages4: 'Ruby',
-    languages5: 'GitHub',
-    languages6: 'Javascript',
+    projectImage4: './images/githubb.webp',
+    languages1: 'REACT',
+    languages2: 'REDUX',
+    languages3: 'NETLIFY',
+    languages4: 'GITHUB',
+    languages5: 'TESTING',
+    languages6: 'PROBLEM SOLVING',
     liveLink: 'See Live',
     sourceLink: 'See Source',
-    description: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita. ",
+    description: 'Bookstores sell books and book-adjacent items, of course. But they also may serve as editorial offices, publishing houses, classrooms, etc.',
   },
   {
     projectId: 'project-4',
-    projectName: 'My Post stories',
-    projectClasses1: 'CANOPY',
-    projectClasses2: '• Back End Dev',
-    projectClasses3: '• 2015',
-    projectImage: './images/SnapshootPortfolio2).jpg',
+    projectName: 'Crypto App',
+    projectClasses1: 'MICROVERSE',
+    projectClasses2: 'REMOTE',
+    projectClasses3: '2022',
+    projectImage: './images/crypto-home.webp',
     projectImage2: './images/IconCancel.png',
     projectImage3: './images/Icon-Export.png',
-    projectImage4: './images/iconGitHub.png',
-    languages1: 'CSS',
-    languages2: 'HTML',
-    languages3: 'Bootsrap',
-    languages4: 'Ruby',
-    languages5: 'GitHub',
-    languages6: 'Javascript',
+    projectImage4: './images/githubb.webp',
+    languages1: 'REACT',
+    languages2: 'REDUX',
+    languages3: 'CSS',
+    languages4: 'GITHUB',
+    languages5: 'VERCEL',
+    languages6: 'BOOTSTRAP',
     liveLink: 'See Live',
     sourceLink: 'See Source',
-    description: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita. ",
+    description: 'Crypto Solution allows banks and digital wallets to offer their own customers the possibility to buy, sell, receive, send and store Bitcoin, etc.',
   },
 ];
-document.getElementById('button-see').addEventListener('click', () => {
+document.getElementById('button-see-tesla').addEventListener('click', () => {
   document.getElementById('modal-container').style.display = 'block';
+  document.getElementById('banana').textContent = projects[0].description;
   document.getElementById('project-name').textContent = projects[0].projectName;
   document.getElementById('canopy-modal').textContent = projects[0].projectClasses1;
   document.getElementById('back-modal').textContent = projects[0].projectClasses2;
@@ -117,12 +118,12 @@ document.getElementById('button-see').addEventListener('click', () => {
   document.getElementById('ruby-modal').textContent = projects[0].languages4;
   document.getElementById('java-modal').textContent = projects[0].languages5;
   document.getElementById('github-modal').textContent = projects[0].languages6;
-  document.getElementById('live-linkl').textContent = projects[0].liveLink;
-  document.getElementById('source-linkl').textContent = projects[0].sourceLink;
-  document.getElementById('modal-description').textContent = projects[0].description;
+  document.getElementById('live-link').textContent = projects[0].liveLink;
+  document.getElementById('source-link').textContent = projects[0].sourceLink;
 });
-document.getElementById('button-see-two').addEventListener('click', () => {
+document.getElementById('button-see-budget').addEventListener('click', () => {
   document.getElementById('modal-container').style.display = 'block';
+  document.getElementById('banana').textContent = projects[1].description;
   document.getElementById('project-name').textContent = projects[1].projectName;
   document.getElementById('canopy-modal').textContent = projects[1].projectClasses1;
   document.getElementById('back-modal').textContent = projects[1].projectClasses2;
@@ -139,10 +140,10 @@ document.getElementById('button-see-two').addEventListener('click', () => {
   document.getElementById('github-modal').textContent = projects[1].languages6;
   document.getElementById('live-link').textContent = projects[1].liveLink;
   document.getElementById('source-link').textContent = projects[1].sourceLink;
-  document.getElementById('modal-description').textContent = projects[1].description;
 });
-document.getElementById('button-tonic-3').addEventListener('click', () => {
+document.getElementById('button-see-bookstore').addEventListener('click', () => {
   document.getElementById('modal-container').style.display = 'block';
+  document.getElementById('banana').textContent = projects[2].description;
   document.getElementById('project-name').textContent = projects[2].projectName;
   document.getElementById('canopy-modal').textContent = projects[2].projectClasses1;
   document.getElementById('back-modal').textContent = projects[2].projectClasses2;
@@ -159,10 +160,10 @@ document.getElementById('button-tonic-3').addEventListener('click', () => {
   document.getElementById('github-modal').textContent = projects[2].languages6;
   document.getElementById('live-link').textContent = projects[2].liveLink;
   document.getElementById('source-link').textContent = projects[2].sourceLink;
-  document.getElementById('modal-description').textContent = projects[2].description;
 });
-document.getElementById('button-see-mypost').addEventListener('click', () => {
+document.getElementById('button-see-crypto').addEventListener('click', () => {
   document.getElementById('modal-container').style.display = 'block';
+  document.getElementById('banana').textContent = projects[3].description;
   document.getElementById('project-name').textContent = projects[3].projectName;
   document.getElementById('canopy-modal').textContent = projects[3].projectClasses1;
   document.getElementById('back-modal').textContent = projects[3].projectClasses2;
@@ -179,8 +180,8 @@ document.getElementById('button-see-mypost').addEventListener('click', () => {
   document.getElementById('github-modal').textContent = projects[3].languages6;
   document.getElementById('live-link').textContent = projects[3].liveLink;
   document.getElementById('source-link').textContent = projects[3].sourceLink;
-  document.getElementById('modal-description').textContent = projects[3].description;
 });
+
 document.getElementById('modal-close').addEventListener('click', () => {
   document.getElementById('modal-container').style.display = 'none';
 });
@@ -218,3 +219,23 @@ if (getData != null) {
   mail.value = getData.emailValue;
   inputText.value = getData.textAreaValue;
 }
+
+function toggleFrameworks() {
+  const list = document.getElementById('frameworks');
+  if (list.style.display === 'none') {
+    list.style.display = 'block';
+  } else {
+    list.style.display = 'none';
+  }
+}
+toggleFrameworks();
+
+function toggleSkills() {
+  const list = document.getElementById('skills');
+  if (list.style.display === 'none') {
+    list.style.display = 'block';
+  } else {
+    list.style.display = 'none';
+  }
+}
+toggleSkills();

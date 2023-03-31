@@ -1,6 +1,6 @@
-# My first project in Microverse!
+# My Portfolio!
 
-# Project Name
+# Myt Portfolio 
 
 > Description the project.
   
@@ -11,6 +11,7 @@
 - HTML
 - CSS
 - Github Pages
+- Javascript
 
   ## getting Started
 
