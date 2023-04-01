@@ -25,7 +25,7 @@
 - Press Enter to create your local clone.
 - Open the folder
 
-[Live Demo Link](https://luccamicale.github.io/myportfolio.github.io/)
+# [Live Demo Link](https://luccamicale.github.io/myportfolio.github.io/)
 
 ## Authors
 
@@ -55,7 +55,7 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
-## Live Demo (if available)
+## Live Demo (https://luccamicale.github.io/myportfolio.github.io/)
 
 
 
