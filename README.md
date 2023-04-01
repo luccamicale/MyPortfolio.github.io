@@ -13,7 +13,7 @@
 - Javascript
 
 
-## [Live Demo Link](https://luccamicale.github.io/myportfolio.github.io/)
+## [Live Demo Link](https://luccamicale.github.io/MyPortfolio.github.io/)
 
   ## getting Started
 
