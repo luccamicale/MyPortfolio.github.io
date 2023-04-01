@@ -1,6 +1,5 @@
 # My Portfolio!
 
-# Myt Portfolio 
 
 > Description the project.
   
@@ -36,9 +35,6 @@
 - Twitter: https://twitter.com/LuccaMicale_
 - LinkedIn: https://www.linkedin.com/in/lucca-micale-907908233/
 
-👤 **Author2**
-
-I complete the document only
 
 ## 🤝 Contributing
 
