@@ -12,6 +12,9 @@
 - Github Pages
 - Javascript
 
+
+## [Live Demo Link](https://luccamicale.github.io/myportfolio.github.io/)
+
   ## getting Started
 
   To check this project, please follow this steps:
@@ -24,8 +27,6 @@
 - Type git clone, and then paste the URL you copied earlier: https://github.com/luccamicale/myportfolio.github.io.git
 - Press Enter to create your local clone.
 - Open the folder
-
-# [Live Demo Link](https://luccamicale.github.io/myportfolio.github.io/)
 
 ## Authors
 
@@ -55,7 +56,7 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
-## Live Demo (https://luccamicale.github.io/myportfolio.github.io/)
+
 
 
 
