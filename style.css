@@ -161,6 +161,20 @@ nav a {
   margin-left: 17px;
 }
 
+nav.content {
+  position: fixed;
+  top: 5px;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: #e1e1e1;
+}
+
+.back-menu {
+  position: fixed;
+  top: 10px;
+}
+
 .sub1 {
   margin-top: 25px;
   top: 4000px;
