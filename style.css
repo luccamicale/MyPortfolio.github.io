@@ -711,7 +711,7 @@ hr {
 }
 
 .btn-blue {
-  background-color: rgb(129, 115, 255);
+  background-color: #6453fd;
   color: rgb(255, 253, 253);
   padding: 5px 5px;
   cursor: pointer;
@@ -777,8 +777,9 @@ hr {
 @media (min-width: 728px) {
   .card-img-top {
     height: 250px;
-    width: 50%;
+    width: auto;
     border-radius: 8px;
+    margin-top: 25px;
   }
 
   .card {
@@ -849,7 +850,7 @@ hr {
 .lets-connect {
   margin-left: 40px;
   margin-top: -30px;
-  color: #6070ff;
+  color: #1c33ff;
 }
 
 .container-emojis {
@@ -1161,7 +1162,7 @@ hr {
   }
 
   #project-image {
-    width: 65%;
+    width: auto;
     height: 42%;
     margin-left: 15%;
     box-shadow: 2px 3px 4px 4px rgb(146, 146, 146);
