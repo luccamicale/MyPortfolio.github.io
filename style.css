@@ -1161,7 +1161,7 @@ hr {
   }
 
   #project-image {
-    width: 65%;
+    width: auto;
     height: 42%;
     margin-left: 15%;
     box-shadow: 2px 3px 4px 4px rgb(146, 146, 146);
