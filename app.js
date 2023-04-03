@@ -38,7 +38,7 @@ const projects = [
     languages6: 'TEAMWORK',
     liveLink: 'See Live',
     sourceLink: 'See Source',
-    description: 'The Tesla app allows you to manage your Tesla products from anywhere. By providing you with a comprehensive view of your energy ecosystem',
+    description: 'Tesla app, you can easily manage your Tesla products no matter where you are. The app offers a comprehensive view of your energy ecosystem.',
   },
   {
     projectId: 'project-2',
@@ -58,7 +58,7 @@ const projects = [
     languages6: 'TESTING',
     liveLink: 'See Live',
     sourceLink: 'See Source',
-    description: ' A budgeting app is a software application that you may access from your computer, tablet or mobile device to track your finances.',
+    description: ' A budgeting app is a software application that you may access from your computer, tablet, or mobile device to track your finances.',
   },
   {
     projectId: 'project-3',
@@ -78,7 +78,7 @@ const projects = [
     languages6: 'PROBLEM SOLVING',
     liveLink: 'See Live',
     sourceLink: 'See Source',
-    description: 'Bookstores sell books and book-adjacent items, of course. But they also may serve as editorial offices, publishing houses, classrooms, etc.',
+    description: 'Bookstores sell books and book-adjacent items, of course. But they also may serve as editorial offices, publishing houses, classrooms, and lecture halls.',
   },
   {
     projectId: 'project-4',
@@ -98,7 +98,7 @@ const projects = [
     languages6: 'BOOTSTRAP',
     liveLink: 'See Live',
     sourceLink: 'See Source',
-    description: 'Crypto Solution allows banks and digital wallets to offer their own customers the possibility to buy, sell, receive, send and store Bitcoin, etc.',
+    description: 'Crypto Solution allows banks and digital wallets to offer their customers the possibility to buy, sell, receive, send, and store Bitcoin, etc.',
   },
 ];
 document.getElementById('button-see-tesla').addEventListener('click', () => {
