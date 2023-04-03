@@ -779,6 +779,7 @@ hr {
     height: 250px;
     width: auto;
     border-radius: 8px;
+    margin-top: 25px;
   }
 
   .card {
