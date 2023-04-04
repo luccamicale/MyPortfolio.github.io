@@ -36,8 +36,8 @@ const projects = [
     languages4: 'GITHUB',
     languages5: 'RENDER',
     languages6: 'TEAMWORK',
-    liveLink: 'See Live',
-    sourceLink: 'See Source',
+    liveLink: 'https://reserve-tesla-car.onrender.com',
+    sourceLink: 'https://github.com/luccamicale/Full-Stack-Capstone-Group',
     description: 'Tesla app, you can easily manage your Tesla products no matter where you are. The app offers a comprehensive view of your energy ecosystem.',
   },
   {
@@ -56,8 +56,8 @@ const projects = [
     languages4: 'GITHUB',
     languages5: 'RENDER',
     languages6: 'TESTING',
-    liveLink: 'See Live',
-    sourceLink: 'See Source',
+    liveLink: 'https://budgetapp-3t3q.onrender.com/',
+    sourceLink: 'https://github.com/luccamicale/budget',
     description: ' A budgeting app is a software application that you may access from your computer, tablet, or mobile device to track your finances.',
   },
   {
@@ -76,8 +76,8 @@ const projects = [
     languages4: 'GITHUB',
     languages5: 'TESTING',
     languages6: 'PROBLEM SOLVING',
-    liveLink: 'See Live',
-    sourceLink: 'See Source',
+    liveLink: 'https://marvelous-hotteok-f01e6b.netlify.app/',
+    sourceLink: 'https://github.com/luccamicale/bookstore',
     description: 'Bookstores sell books and book-adjacent items, of course. But they also may serve as editorial offices, publishing houses, classrooms, and lecture halls.',
   },
   {
@@ -96,8 +96,8 @@ const projects = [
     languages4: 'GITHUB',
     languages5: 'VERCEL',
     languages6: 'BOOTSTRAP',
-    liveLink: 'See Live',
-    sourceLink: 'See Source',
+    liveLink: 'https://crypto-currencies-puce.vercel.app/',
+    sourceLink: 'https://github.com/luccamicale/crypto-currencies',
     description: 'Crypto Solution allows banks and digital wallets to offer their customers the possibility to buy, sell, receive, send, and store Bitcoin, etc.',
   },
 ];
@@ -118,8 +118,8 @@ document.getElementById('button-see-tesla').addEventListener('click', () => {
   document.getElementById('ruby-modal').textContent = projects[0].languages4;
   document.getElementById('java-modal').textContent = projects[0].languages5;
   document.getElementById('github-modal').textContent = projects[0].languages6;
-  document.getElementById('live-link').textContent = projects[0].liveLink;
-  document.getElementById('source-link').textContent = projects[0].sourceLink;
+  document.getElementById('live-link').href = projects[0].liveLink;
+  document.getElementById('source-link').href = projects[0].sourceLink;
 });
 document.getElementById('button-see-budget').addEventListener('click', () => {
   document.getElementById('modal-container').style.display = 'block';
@@ -138,8 +138,8 @@ document.getElementById('button-see-budget').addEventListener('click', () => {
   document.getElementById('ruby-modal').textContent = projects[1].languages4;
   document.getElementById('java-modal').textContent = projects[1].languages5;
   document.getElementById('github-modal').textContent = projects[1].languages6;
-  document.getElementById('live-link').textContent = projects[1].liveLink;
-  document.getElementById('source-link').textContent = projects[1].sourceLink;
+  document.getElementById('live-link').href = projects[1].liveLink;
+  document.getElementById('source-link').href = projects[1].sourceLink;
 });
 document.getElementById('button-see-bookstore').addEventListener('click', () => {
   document.getElementById('modal-container').style.display = 'block';
@@ -158,8 +158,8 @@ document.getElementById('button-see-bookstore').addEventListener('click', () => 
   document.getElementById('ruby-modal').textContent = projects[2].languages4;
   document.getElementById('java-modal').textContent = projects[2].languages5;
   document.getElementById('github-modal').textContent = projects[2].languages6;
-  document.getElementById('live-link').textContent = projects[2].liveLink;
-  document.getElementById('source-link').textContent = projects[2].sourceLink;
+  document.getElementById('live-link').href = projects[2].liveLink;
+  document.getElementById('source-link').href = projects[2].sourceLink;
 });
 document.getElementById('button-see-crypto').addEventListener('click', () => {
   document.getElementById('modal-container').style.display = 'block';
@@ -178,8 +178,8 @@ document.getElementById('button-see-crypto').addEventListener('click', () => {
   document.getElementById('ruby-modal').textContent = projects[3].languages4;
   document.getElementById('java-modal').textContent = projects[3].languages5;
   document.getElementById('github-modal').textContent = projects[3].languages6;
-  document.getElementById('live-link').textContent = projects[3].liveLink;
-  document.getElementById('source-link').textContent = projects[3].sourceLink;
+  document.getElementById('live-link').href = projects[3].liveLink;
+  document.getElementById('source-link').href = projects[3].sourceLink;
 });
 
 document.getElementById('modal-close').addEventListener('click', () => {
