@@ -1187,6 +1187,7 @@ hr {
     width: 55%;
     height: 65%;
     margin-left: 19%;
+    justify-content: center;
   }
 
   #project-image {
