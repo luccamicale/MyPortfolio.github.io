@@ -46,7 +46,7 @@ const projects = [
     projectClasses1: 'MICROVERSE',
     projectClasses2: 'REMOTE',
     projectClasses3: '2023',
-    projectImage: './images/budgettt.webp',
+    projectImage: './images/new-budget.webp',
     projectImage2: './images/IconCancel.png',
     projectImage3: './images/Icon-Export.png',
     projectImage4: './images/githubb.webp',
