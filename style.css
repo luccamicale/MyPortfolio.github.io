@@ -1191,11 +1191,12 @@ hr {
   }
 
   #project-image {
-    width: auto;
+    width: 30vw;
     height: 42%;
     box-shadow: 2px 3px 4px 4px rgb(146, 146, 146);
-    display: block;
+    display: flex;
     margin: 0 auto;
+    justify-content: center;
   }
   
 
