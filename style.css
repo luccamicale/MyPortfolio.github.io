@@ -785,6 +785,12 @@ hr {
   margin-left: 20px;
 }
 
+.main-title-1 {
+  width: 80%;
+  font-size: 40px;
+  margin-left: 20px;
+}
+
 .text {
   margin-left: 20px;
 }
@@ -840,6 +846,12 @@ hr {
   }
 
   .main-title {
+    width: 180%;
+    font-size: 55px;
+    margin-left: 20px;
+  }
+
+  .main-title-1 {
     width: 180%;
     font-size: 55px;
     margin-left: 20px;
@@ -960,6 +972,7 @@ hr {
   .about-section {
     display: flex;
     flex-direction: row;
+    margin-top: 100px;
   }
 
   .lets-connect {
@@ -1201,4 +1214,16 @@ hr {
     margin-left: 199px;
     margin-top: 5px;
   }
+}
+
+.title-desc-about {
+  background-color: whitesmoke;
+    border-radius: 2px 106px 2px 100px;
+    box-shadow: 1px 1px 5px 2px;
+    margin-bottom: 15px;
+    padding-bottom: 55px;
+}
+
+#tesla-img {
+  width: 97%;
 }
