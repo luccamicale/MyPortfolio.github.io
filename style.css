@@ -169,6 +169,7 @@ nav.content {
   width: 100%;
   z-index: 9999;
   background-color: #e1e1e1;
+  border-radius: 20px;
 }
 
 .back-menu {
@@ -247,7 +248,7 @@ nav.content {
 
 .contact {
   background: #6070ff;
-  border-radius: 100px 0 0 0;
+  border-radius: 150px 0px 150px 0px;
   min-height: 850px;
   width: 100vw;
   display: flex;
@@ -776,7 +777,9 @@ hr {
   width: 96%;
   background-color: #f6f5f5;
   margin-left: 2%;
-  border-radius: 16px;
+  border-radius: 36px;
+  box-shadow: 0px 0px 20px 3px;
+  margin-top: 50px;
 }
 
 .main-title {
@@ -1038,7 +1041,7 @@ hr {
     transform: translateX(-100%);
   }
 
-  100% {
+  10% {
     transform: translateX(100%);
   }
 }
