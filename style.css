@@ -1,9 +1,13 @@
+body {
+  background-color: #211b50;
+}
+
 * {
   padding: 0;
   margin: 0;
   border-left: 15px;
   list-style-type: none;
-  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .contenedor {
@@ -135,9 +139,11 @@ nav a {
 }
 
 .fondoo {
-  padding-top: 40px;
-  margin-left: 2px;
-  width: 103%;
+  padding-top: 0px;
+    margin-left: 2px;
+    width: 103%;
+    height: 600px;
+    border-radius: 0px 0px 90px 0px;
 }
 
 .menu {
@@ -490,7 +496,7 @@ form ul {
   }
 
   .header {
-    background-image: url("images/Headerbg.jpg");
+    background-image: url("images/hhhhhhhhhhhhh.png");
     width: 1380px;
     height: 746px;
     margin-top: 60px;
@@ -601,7 +607,7 @@ form ul {
   }
 
   .text {
-    width: 190%;
+    width: 800px
   }
 }
 
@@ -785,16 +791,22 @@ hr {
   width: 80%;
   font-size: 40px;
   margin-left: 20px;
+  color: wheat;
 }
 
 .main-title-1 {
   width: 80%;
   font-size: 40px;
   margin-left: 20px;
+  color: wheat;
 }
 
 .text {
   margin-left: 20px;
+  color: wheat;
+  font-size: 15px;
+  width: 250px;
+  margin-top: -20px;
 }
 
 @media (min-width: 728px) {
@@ -885,6 +897,7 @@ hr {
 .container-emojis {
   display: flex;
   flex-direction: row;
+  margin-left: 8px;
 }
 
 .emoji {
@@ -928,6 +941,7 @@ hr {
   margin-left: 40px;
   margin-top: 50px;
   font-size: 25px;
+  color: white;
 }
 
 .li-item {
@@ -1219,6 +1233,10 @@ hr {
   #link-group {
     margin-left: 199px;
     margin-top: 5px;
+  }
+
+  #text-desktop {
+    width: 800px;
   }
 }
 
