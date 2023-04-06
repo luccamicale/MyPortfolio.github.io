@@ -22,7 +22,6 @@
   flex-grow: 0;
   font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   top: 180px;
-  display: flexbox;
 }
 
 .main {
@@ -520,7 +519,7 @@ form ul {
     font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: normal;
     border: 1px solid #cfd8dc;
-    border-radius: 0.1px;
+    border-radius: 8px;
   }
 
   #name {
@@ -531,7 +530,7 @@ form ul {
     font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: normal;
     border: 1px solid #cfd8dc;
-    border-radius: 0.1px;
+    border-radius: 8px;
   }
 
   #msg {
@@ -541,7 +540,7 @@ form ul {
     font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: normal;
     border: 1px solid #cfd8dc;
-    border-radius: 0.1px;
+    border-radius: 8px;
     resize: none;
     padding-left: 7px;
   }
