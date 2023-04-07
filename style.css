@@ -496,10 +496,12 @@ form ul {
   }
 
   .header {
-    background-image: url("images/hhhhhhhhhhhhh.png");
     width: 1380px;
     height: 746px;
     margin-top: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10%;
   }
 
   .menu-media {
@@ -612,7 +614,7 @@ form ul {
 }
 
 .overlay {
-  background-color: #6070ff;
+  background-color: #292d54;
   mix-blend-mode: multiply;
   backdrop-filter: blur(7px);
   position: fixed;
@@ -863,6 +865,7 @@ hr {
     width: 180%;
     font-size: 55px;
     margin-left: 20px;
+    margin-top: 55px;
   }
 
   .main-title-1 {
@@ -992,10 +995,10 @@ hr {
   }
 
   .lets-connect {
-    margin-left: 300px;
-    margin-top: -100px;
+    margin-left: 320px;
     color: #6070ff;
     font-size: 20px;
+    margin-top: -550px;
   }
 
   .description {
@@ -1180,6 +1183,22 @@ hr {
   text-decoration: none;
 }
 
+.element-1 {
+  display: none;
+}
+
+.element-2 {
+  display: none;
+}
+
+.element-3 {
+  display: none;
+}
+
+.element-4 {
+  display: none;
+}
+
 @media (min-width: 728px) {
   /* .modal-container {
     width: 60%;
@@ -1237,6 +1256,34 @@ hr {
 
   #text-desktop {
     width: 800px;
+    margin-top: 30px;
+  }
+
+  .element-1 {
+    margin-left: 98%;
+    width: 19%;
+    margin-top: -30px;
+    display: flex;
+  }
+
+  .element-2 {
+    display: none;
+  }
+
+  .element-3 {
+    display: flex;
+    width: 19%;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 1150px;
+  }
+
+  .element-4 {
+    display: flex;
+    width: 50%;
+    position: absolute;
+    margin-top: -344px;
+    margin-left: 0px;
   }
 }
 
