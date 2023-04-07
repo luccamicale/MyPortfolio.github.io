@@ -1284,7 +1284,26 @@ hr {
     position: absolute;
     margin-top: -344px;
     margin-left: 0px;
+    transition: transform 1s ease-in-out;
+    animation: move 3s infinite;
   }
+  
+  .element-4:hover {
+    transform: translateY(-20px);
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
 }
 
 .title-desc-about {
