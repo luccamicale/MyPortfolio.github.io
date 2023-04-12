@@ -76,7 +76,7 @@ const projects = [
     languages4: 'GITHUB',
     languages5: 'TESTING',
     languages6: 'PROBLEM SOLVING',
-    liveLink: 'https://marvelous-hotteok-f01e6b.netlify.app/',
+    liveLink: 'https://bookstore-luccamicale.vercel.app/',
     sourceLink: 'https://github.com/luccamicale/bookstore',
     description: 'Bookstores sell books and book-adjacent items, of course. But they also may serve as editorial offices, publishing houses, classrooms, and lecture halls.',
   },
