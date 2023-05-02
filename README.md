@@ -11,6 +11,7 @@
 - CSS
 - Github Pages
 - Javascript
+- Bootstrap
 
 
 ## [Live Demo Link](https://luccamicale.github.io/MyPortfolio.github.io/)
